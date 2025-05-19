@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
               <Toaster richColors />
 
               {children}
+              <Toaster richColors/>
             </main>
           </ConvexClientProvider>
         </ClerkProvider>
