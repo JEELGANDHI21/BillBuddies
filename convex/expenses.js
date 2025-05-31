@@ -44,12 +44,12 @@ export const createExpense = mutation({
       (sum, split) => sum + split.amount,
       0
     );
-    const tolerance = 0.01; // Allow for small rounding errors
+    const tolerance = 0.01; 
     if (Math.abs(totalSplitAmount - args.amount) > tolerance) {
       throw new Error("Split amounts must add up to the total expense amount");
     }
 
-    // Create the expense
+   
     const expenseId = await ctx.db.insert("expenses", {
       description: args.description,
       amount: args.amount,
