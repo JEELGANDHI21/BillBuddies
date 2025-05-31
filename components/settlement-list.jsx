@@ -97,7 +97,7 @@ export function SettlementList({
                       {isCurrentUserPayer ? (
                         <span className="text-amber-600">You paid</span>
                       ) : isCurrentUserReceiver ? (
-                        <span className="text-blue-600">You received</span>
+                        <span className="text-green-600">You received</span>
                       ) : (
                         <span>Payment</span>
                       )}

@@ -27,7 +27,7 @@ export default function PersonExpensesPage() {
   if (isLoading) {
     return (
       <div className="container mx-auto py-12">
-        <BarLoader width={"100%"} color="#36d7b7" />
+        <BarLoader width={"100%"} color="#1E63A1" />
       </div>
     );
   }
@@ -81,7 +81,6 @@ export default function PersonExpensesPage() {
         </div>
       </div>
 
-      {/* Balance card */}
       <Card className="mb-6">
         <CardHeader className="pb-2">
           <CardTitle className="text-xl">Balance</CardTitle>
@@ -103,7 +102,7 @@ export default function PersonExpensesPage() {
               )}
             </div>
             <div
-              className={`text-2xl font-bold ${balance > 0 ? "text-blue-600" : balance < 0 ? "text-red-600" : ""}`}
+              className={`text-2xl font-bold ${balance > 0 ? "text-green-600" : balance < 0 ? "text-red-600" : ""}`}
             >
               ${Math.abs(balance).toFixed(2)}
             </div>
