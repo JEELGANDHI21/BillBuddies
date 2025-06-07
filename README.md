@@ -39,7 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 BillBuddies is a full-stack real-time Splitwise clone powered by AI. It simplifies personal and group expense tracking, provides smart insights, and minimizes debt—all wrapped in a sleek, responsive interface.
 
-![BillBuddies Hero Screenshot](./public/hero.png)
+![BillBuddies Hero Screenshot](./public/hero1.png)
 
 ---
 
