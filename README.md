@@ -105,9 +105,9 @@ yarn install
 ```
 
 ### 3. Setup Environment Variables
-
-```bash
 Create a .env file in the root and add keys for:
+```bash
+
 CONVEX_DEPLOYMENT_URL=
 GEMINI_API_KEY=
 INNGEST_API_KEY=
