@@ -70,7 +70,7 @@ BillBuddies is a full-stack real-time Splitwise clone powered by AI. It simplifi
 
 > Replace these image paths with your actual image URLs or assets.
 
-| Dashboard                      | Group View                 | Expense Summary              |
+| Dashboard                      | Group View                 | Features                     |
 | ------------------------------ | -------------------------- | ---------------------------- |
 | ![Dashboard](./public/ss1.png) | ![Group](./public/ss2.png) | ![Summary](./public/ss3.png) |
 
